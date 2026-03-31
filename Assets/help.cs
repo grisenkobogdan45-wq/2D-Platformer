@@ -8,6 +8,8 @@ public class help : MonoBehaviour
     private float Health;
     private bool Can_DMG = true;
     public float InvincibilityTimer = 2;
+    public delegate void HealthChangedHandler(float newhave, float pushorigin);
+    public event HealthChangedHandler OnHealthChanged;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -20,7 +22,9 @@ public class help : MonoBehaviour
         if (Can_DMG)
         {
             Health -= damage;
+            OnHealthChanged?.Invoke(Health, -damage);
             Can_DMG = false;
+            StartCoroutine(InvincibilityTime(InvincibilityTimer, ResetInvincibility));
         }
         Debug.Log(damage);
     }
@@ -37,6 +41,7 @@ public class help : MonoBehaviour
     public void AddHealth(float heal)
     {
         Health += heal;
+        OnHealthChanged.Invoke(Health, heal);
         Debug.Log(Health);
     }
 }
