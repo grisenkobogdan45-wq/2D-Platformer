@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using UnityEngine;
 
 public class help : MonoBehaviour
@@ -15,8 +17,22 @@ public class help : MonoBehaviour
     // Update is called once per frame
     public void AddDamage(float damage)
     {
-        Health -= damage;
+        if (Can_DMG)
+        {
+            Health -= damage;
+            Can_DMG = false;
+        }
         Debug.Log(damage);
+    }
+
+    IEnumerator InvincibilityTime(float time, Action callback)
+    {
+        yield return new WaitForSeconds(time);
+        callback.Invoke();
+    }
+    private void ResetInvincibility()
+    {
+        Can_DMG = true;
     }
     public void AddHealth(float heal)
     {
