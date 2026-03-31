@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class help : MonoBehaviour
 {
-    public float Max_Health = 100;
+    public float Max_Health = 3;
     private float Health;
     private bool Can_DMG = true;
     public float InvincibilityTimer = 2;
