@@ -18,4 +18,9 @@ public class help : MonoBehaviour
         Health -= damage;
         Debug.Log(damage);
     }
+    public void AddHealth(float heal)
+    {
+        Health += heal;
+        Debug.Log(Health);
+    }
 }
