@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class sp : MonoBehaviour
 {
-    public float damage = 1;
+    public float damage = 10;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
