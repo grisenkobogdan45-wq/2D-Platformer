@@ -9,13 +9,15 @@ public class UICoin : MonoBehaviour
     public playerCoin playerWealth;
     void Start()
     {
-        playerWealth.MoneyChanged += MoneyChanged;
+       playerWealth.MoneyChanged += MoneyChanged;
     }
+
 
     private void OnMoneyInit(float newcoin)
     {
         moneyText.text = newcoin.ToString();
     }
+
 
     public void MoneyChanged(float newcoin, float ammountChanged)
     {
