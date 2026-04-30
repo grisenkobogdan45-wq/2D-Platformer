@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class help : MonoBehaviour
 {
-    public float Max_Health = 10;
+    public float Max_Health = 1;
     private float Health;
     private bool Can_DMG = true;
     public float InvincibilityTimer = 2;
