@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class help : MonoBehaviour
 {
@@ -30,6 +31,11 @@ public class help : MonoBehaviour
             Can_DMG = false;
             StartCoroutine(InvincibilityTime(InvincibilityTimer, ResetInvincibility));
             Debug.Log(damage);
+        }
+
+            if (Health <= 0)
+        {
+            SceneManager.LoadScene("");
         }
     }
 
