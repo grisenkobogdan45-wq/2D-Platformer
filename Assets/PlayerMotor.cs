@@ -15,14 +15,35 @@ public class PlayerMotor : MonoBehaviour
     private Rigidbody2D rigidbody2D;
     private bool _isDashing = false;
     private bool _isJumping = true;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    private Animator _animator;
+    private float scaleX;
+
     private void Start()
     {
         rigidbody2D = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
+        scaleX = transform.localScale.x;
     }
     // Update is called once per frame
     private void FixedUpdate()
     {
+        if (direction.x != 0)
+        {
+            _animator.SetBool("ISmoving", true);
+        }
+        else
+        {
+            _animator.SetBool("ISmoving", false);
+        }    
+        if(direction.x > 0)
+        {
+            transform.localScale = new Vector3(scaleX, transform.localScale.y, transform.localScale.z);
+        }
+        else if (direction.x < 0)
+        {
+            transform.localScale = new Vector3(-scaleX, transform.localScale.y, transform.localScale.z);
+        }
         MovePlayer();
         HandleMaxSpeed();
         PlayerStopping();
