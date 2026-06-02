@@ -2352,7 +2352,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healthText: {fileID: 83923230}
-  playerHealth: {fileID: 0}
+  playerHealth: {fileID: 1951668658}
 --- !u!1 &689522951
 GameObject:
   m_ObjectHideFlags: 0
@@ -3799,7 +3799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moneyText: {fileID: 941797755}
-  playerWealth: {fileID: 0}
+  playerWealth: {fileID: 1951668657}
 --- !u!114 &1295377641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5615,6 +5615,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1951668657 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4248616361804054036, guid: d201b54f76ca32f40a7c54475c99e048, type: 3}
+  m_PrefabInstance: {fileID: 117986498}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 585caba52c87ee24cbd79317e923e433, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1951668658 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9131654133471229108, guid: d201b54f76ca32f40a7c54475c99e048, type: 3}
+  m_PrefabInstance: {fileID: 117986498}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76008ef19b7b368418230b9ffe6107a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2026848700
 GameObject:
   m_ObjectHideFlags: 0
