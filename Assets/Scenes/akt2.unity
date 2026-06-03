@@ -151,7 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18983ae12a0be3e4fa95553c67f95429, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 10
 --- !u!60 &81828005
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -762,7 +762,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18983ae12a0be3e4fa95553c67f95429, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 10
 --- !u!60 &314579051
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -1022,7 +1022,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18983ae12a0be3e4fa95553c67f95429, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 10
 --- !u!60 &376556296
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -2069,7 +2069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18983ae12a0be3e4fa95553c67f95429, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 10
 --- !u!1 &698889427
 GameObject:
   m_ObjectHideFlags: 0
@@ -2288,7 +2288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18983ae12a0be3e4fa95553c67f95429, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 10
 --- !u!60 &808139547
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5615,7 +5615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18983ae12a0be3e4fa95553c67f95429, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 10
 --- !u!60 &1092734617
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -6698,7 +6698,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18983ae12a0be3e4fa95553c67f95429, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 10
 --- !u!60 &1476994303
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7526,7 +7526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18983ae12a0be3e4fa95553c67f95429, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 10
 --- !u!60 &1845134840
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7725,7 +7725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18983ae12a0be3e4fa95553c67f95429, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 10
 --- !u!60 &2026714738
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -7924,7 +7924,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18983ae12a0be3e4fa95553c67f95429, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 10
 --- !u!60 &2028506188
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -8123,7 +8123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 18983ae12a0be3e4fa95553c67f95429, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1
+  damage: 10
 --- !u!60 &2084923473
 PolygonCollider2D:
   m_ObjectHideFlags: 0
